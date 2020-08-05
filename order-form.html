@@ -10,35 +10,32 @@
 <body>
     <div class="container">
         <form>
-          <fieldset>
-<legend>Személyes adatok</legend>
-            <div>
-                <label for="name">Név: *</label>
-                <input id="name" name="name" type="text" required>
-            </div>
-            <div>
-                <label for="email">Email cím: *</label>
-                <input id="email" name="email" type="email" required>
-            </div>
-            <div>
-                <label for="address">Cím: *</label>
-                <input id="address" name="address" type="text" required>
-            </div>
-            <div>
-                <label for="comment">Megjegyzés:</label>
-                <input id="comment" name="comment" rows="5"></textarea>
-            </div>
-          </fieldset>
-
-
-        
-              <legend>Termék adatai</legend>
-          </fieldset>
-           <span>Extra feltét:</span>
-            </div>
+            <fieldset>
+                <legend>Személyes adatok</legend>
+                <div>
+                    <label for="name">Név: *</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email cím: *</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div>
+                    <label for="address">Cím: *</label>
+                    <input id="address" name="address" type="text" required>
+                </div>
+                <div>
+                    <label for="comment">Megjegyzés:</label>
+                    <textarea id="comment" name="comment" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Termék adatai</legend>
+         
+            <span>Extra feltét:</span>
             <div>
                 <input checked id="nothing" name="extra" type="radio" value="0">
-                <label for="nothing">Nem kérek</label> </div>
+                <label for="nothing">Nem kérek</label>
             </div>
             <div>
                 <input id="cheese" name="extra" type="radio" value="0">
@@ -62,25 +59,24 @@
             </div>
             <div>
                 <label for="sauce">Szósz:</label>
-                <select id="sauce"  name="sauce">
+                <select id="sauce" name="sauce">
                     <option value="0" selected> szósz 1</option>
+                    <option value="100">szósz 2</option>
+                    <option value="100">szósz 3</option>
+                    <option value="100">szósz 4</option>
                 </select>
-                <div>
-                    <label for="quantity"> Mennyiség:</label>
-                    <input id="quantity" name="quantity" type="number" min="1" max="10" value="">
-                </div>
-                <fieldset>
-                <div>
-                    <input type="button" value="Rendelés leadása"> Ár: <span>1200</span> Ft
-                </div>
-                </form>
-            </select>
             </div>
+            <div>
+                <label for="quantity"> Mennyiség:</label>
+                <input id="quantity" name="quantity" type="number" min="1" max="10" value="">
+            </div>
+            </fieldset>
+            <div>
+                <input type="button" value="Rendelés leadása"> Ár: <span>1200</span> Ft
+            </div>
+        </form>
+    </div>
 
-
-
-                    </form>
-                </div>
 </body>
 
 </html>
